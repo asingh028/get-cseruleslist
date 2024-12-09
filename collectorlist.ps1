@@ -1,7 +1,7 @@
 # Define Sumo Logic API endpoint and credentials
-$SumoLogicEndpoint = "https://api.in.sumologic.com/api/v1/collectors"  # Update the endpoint based on your region
-$AccessId = "su8uQLkxDDcRIO"  # Replace with your Sumo Logic Access ID
-$AccessKey = "WIo6bRk3byylOnPDLspHGVFvHhe6A1c87S5sRRvYKKgA7Kb5vT7y9DcE1xeewuAg"  # Replace with your Sumo Logic Access Key
+$SumoLogicEndpoint = "https://api.[deployment].sumologic.com/api/v1/collectors"  # Update the endpoint based on your region
+$AccessId = "yourid"  # Replace with your Sumo Logic Access ID
+$AccessKey = "youkey"  # Replace with your Sumo Logic Access Key
 
 # Encode the credentials for Basic Authentication
 $EncodedCredentials = [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes("$($AccessId):$($AccessKey)"))

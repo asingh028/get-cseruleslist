@@ -30,7 +30,9 @@ Reference Doc: https://api.au.sumologic.com/docs/sec/#operation/GetAllThreatInte
 First change the following in the respective PS1 script:
 
 _$SumoLogicEndpoint = "https://api.[deployment].sumologic.com/api/v1/collectors"  # Update the endpoint based on your region
+
 $AccessId = "yourid"  # Replace with your Sumo Logic Access ID
+
 $AccessKey = "youkey"  # Replace with your Sumo Logic Access Key_
 
 - Open PowerShell as Administrator:

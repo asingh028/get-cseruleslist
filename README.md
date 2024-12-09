@@ -26,8 +26,8 @@ Script to export threat intel in CSE with the sources and indicators all togethe
 Reference Doc: https://api.au.sumologic.com/docs/sec/#operation/GetAllThreatIntelIndicators
                https://api.au.sumologic.com/docs/sec/#operation/GetThreatIntelligenceSource
 
-#### PS1 file execution:
-First change the following in the respective PS1 script:
+#### Get collectors using powershell Script: [collectorlist.ps1](https://github.com/asingh028/Sumologic-API-Call-Scripts/blob/main/collectorlist.ps1)
+First change the following in the PS1 script:
 
 _$SumoLogicEndpoint = "https://api.[deployment].sumologic.com/api/v1/collectors"  # Update the endpoint based on your region_
 

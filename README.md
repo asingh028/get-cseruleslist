@@ -29,13 +29,13 @@ Reference Doc: https://api.au.sumologic.com/docs/sec/#operation/GetAllThreatInte
 #### PS1 file execution:
 First change the following in the respective PS1 script:
 
-_$SumoLogicEndpoint = "https://api.[deployment].sumologic.com/api/v1/collectors"  # Update the endpoint based on your region
+_$SumoLogicEndpoint = "https://api.[deployment].sumologic.com/api/v1/collectors"  # Update the endpoint based on your region_
 
-$AccessId = "yourid"  # Replace with your Sumo Logic Access ID
+_$AccessId = "yourid"  # Replace with your Sumo Logic Access ID_
 
-$AccessKey = "youkey"  # Replace with your Sumo Logic Access Key_
+_$AccessKey = "youkey"  # Replace with your Sumo Logic Access Key_
 
-- Open PowerShell as Administrator:
+##### Open PowerShell as Administrator:
 
 - Right-click on the PowerShell icon and select Run as Administrator.
 - Check Current Execution Policy: _Get-ExecutionPolicy_

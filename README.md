@@ -31,6 +31,7 @@ Open PowerShell as Administrator:
 
 Right-click on the PowerShell icon and select Run as Administrator.
 Check Current Execution Policy: Get-ExecutionPolicy
+
 Set Execution Policy (if restricted): To temporarily allow script execution, run: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 - This change applies only to the current session and reverts when you close PowerShell.
 

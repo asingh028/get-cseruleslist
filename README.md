@@ -29,15 +29,15 @@ Reference Doc: https://api.au.sumologic.com/docs/sec/#operation/GetAllThreatInte
 #### PS1 file execution:
 First change the following in the respective PS1 script:
 
-$SumoLogicEndpoint = "https://api.[deployment].sumologic.com/api/v1/collectors"  # Update the endpoint based on your region
+_$SumoLogicEndpoint = "https://api.[deployment].sumologic.com/api/v1/collectors"  # Update the endpoint based on your region
 $AccessId = "yourid"  # Replace with your Sumo Logic Access ID
-$AccessKey = "youkey"  # Replace with your Sumo Logic Access Key
+$AccessKey = "youkey"  # Replace with your Sumo Logic Access Key_
 
-Open PowerShell as Administrator:
+- Open PowerShell as Administrator:
 
-Right-click on the PowerShell icon and select Run as Administrator.
-Check Current Execution Policy: Get-ExecutionPolicy
-
-Set Execution Policy (if restricted): To temporarily allow script execution, run: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-- This change applies only to the current session and reverts when you close PowerShell.
-
+- Right-click on the PowerShell icon and select Run as Administrator.
+- Check Current Execution Policy: _Get-ExecutionPolicy_
+- Set Execution Policy (if restricted): To temporarily allow script execution, run: _Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass_
+  
+**- This change applies only to the current session and reverts when you close PowerShell.
+**

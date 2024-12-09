@@ -41,5 +41,4 @@ _$AccessKey = "youkey"  # Replace with your Sumo Logic Access Key_
 - Check Current Execution Policy: _Get-ExecutionPolicy_
 - Set Execution Policy (if restricted): To temporarily allow script execution, run: _Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass_
   
-**- This change applies only to the current session and reverts when you close PowerShell.
-**
+**This change applies only to the current session and reverts when you close PowerShell.**

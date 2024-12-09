@@ -24,4 +24,12 @@ Reference Doc: https://help.sumologic.com/docs/api/collector-management/collecto
 #### Get the list of Threat intel sources with the indicators- [APIthreatindicatorswithsource.py](https://github.com/asingh028/Sumologic-API-Call-Scripts/blob/main/APIthreatindicatorswithsource.py)
 Script to export threat intel in CSE with the sources and indicators all together- might be helpful in providing a consolidate view of your threat intel sources and indicators- Use case is if you face indicators not been malicious but still generating signals, and you want to quickly identify the source of the indicator and since no export button is there yet in Cloud SIEM UI, you have to manually drill down on the sources. The Csv file you get from this API call script will give you consolidated view and quick reference to cleanup unnecessary indicators from the sources.
 Reference Doc: https://api.au.sumologic.com/docs/sec/#operation/GetAllThreatIntelIndicators
-               https://api.au.sumologic.com/docs/sec/#operation/GetThreatIntelligenceSources
+               https://api.au.sumologic.com/docs/sec/#operation/GetThreatIntelligenceSource
+
+#### PS1 file execution:
+Open PowerShell as Administrator:
+Right-click on the PowerShell icon and select Run as Administrator.
+Check Current Execution Policy: Get-ExecutionPolicy
+Set Execution Policy (if restricted): To temporarily allow script execution, run: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+- This change applies only to the current session and reverts when you close PowerShell.
+

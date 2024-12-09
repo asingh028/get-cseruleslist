@@ -28,6 +28,7 @@ Reference Doc: https://api.au.sumologic.com/docs/sec/#operation/GetAllThreatInte
 
 #### PS1 file execution:
 Open PowerShell as Administrator:
+
 Right-click on the PowerShell icon and select Run as Administrator.
 Check Current Execution Policy: Get-ExecutionPolicy
 Set Execution Policy (if restricted): To temporarily allow script execution, run: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass

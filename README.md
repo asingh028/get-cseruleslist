@@ -27,6 +27,12 @@ Reference Doc: https://api.au.sumologic.com/docs/sec/#operation/GetAllThreatInte
                https://api.au.sumologic.com/docs/sec/#operation/GetThreatIntelligenceSource
 
 #### PS1 file execution:
+First change the following in the respective PS1 script:
+
+$SumoLogicEndpoint = "https://api.[deployment].sumologic.com/api/v1/collectors"  # Update the endpoint based on your region
+$AccessId = "yourid"  # Replace with your Sumo Logic Access ID
+$AccessKey = "youkey"  # Replace with your Sumo Logic Access Key
+
 Open PowerShell as Administrator:
 
 Right-click on the PowerShell icon and select Run as Administrator.

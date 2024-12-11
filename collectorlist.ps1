@@ -39,6 +39,7 @@ $CollectorDetails = $Collectors | ForEach-Object {
         CollectorType = $_.collectorType
         Status        = $_.alive
 	Lastseen      = $_.lastSeenAlive
+ 	OSName	      = $_.osName
     }
 }
 
